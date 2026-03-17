@@ -1,0 +1,10 @@
+Loaded 48 monthly price records (2020-10-31 to 2024-09-30)
+Model R²: 0.9118
+Saved: historical_prices.png
+Saved: seasonal_pattern.png
+Saved: extrapolation.png
+
+=== Price Estimates ===
+  2025-01-15: $13.32
+  2025-06-15: $12.13
+  2025-12-15: $13.21

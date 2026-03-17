@@ -1,0 +1,43 @@
+nohup: ignoring input
+Loaded 10000 borrowers
+FICO range: 408-850
+Default rate: 18.51%
+
+Default rates by FICO range:
+  300-600: 36.60% (2623 borrowers)
+  600-650: 17.94% (3111 borrowers)
+  650-700: 9.61% (2738 borrowers)
+  700-750: 4.98% (1244 borrowers)
+  750-850: 2.83% (283 borrowers)
+
+=== MSE Buckets ===
+Boundaries: [496, 584, 673, 761]
+  Bucket 1: 408-496 | Default: 72.09% | Count: 129
+  Bucket 2: 496-584 | Default: 39.32% | Count: 1765
+  Bucket 3: 584-673 | Default: 16.82% | Count: 5387
+  Bucket 4: 673-761 | Default: 6.68% | Count: 2651
+  Bucket 5: 761-850 | Default: 2.09% | Count: 191
+MSE: 5,544,208.59
+
+=== Log-Likelihood Buckets ===
+Boundaries: [496, 584, 673, 761]
+  Bucket 1: 408-496 | Default: 72.09% | Count: 129
+  Bucket 2: 496-584 | Default: 39.32% | Count: 1765
+  Bucket 3: 584-673 | Default: 16.82% | Count: 5387
+  Bucket 4: 673-761 | Default: 6.68% | Count: 2651
+  Bucket 5: 761-850 | Default: 2.09% | Count: 191
+Log-Likelihood: 4313.87
+
+=== Method Comparison ===
+        Method           Boundaries
+           MSE [496, 584, 673, 761]
+Log-Likelihood [496, 584, 673, 761]
+
+Saved: bucket_comparison.png
+
+=== FICO → Bucket Mapping ===
+  FICO 550 → Bucket 2
+  FICO 650 → Bucket 3
+  FICO 700 → Bucket 4
+  FICO 750 → Bucket 4
+  FICO 820 → Bucket 5

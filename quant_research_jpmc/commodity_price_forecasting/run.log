@@ -1,0 +1,13 @@
+nohup: ignoring input
+/home/devansh/sem4/my_quant_projects/quant_research_jpmc/commodity_price_forecasting/commodity_price_forecasting.py:12: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["Dates"] = pd.to_datetime(df["Dates"])
+Loaded 48 monthly price records (2020-10-31 to 2024-09-30)
+Model R²: 0.9118
+Saved: historical_prices.png
+Saved: seasonal_pattern.png
+Saved: extrapolation.png
+
+=== Price Estimates ===
+  2025-01-15: $13.32
+  2025-06-15: $12.13
+  2025-12-15: $13.21

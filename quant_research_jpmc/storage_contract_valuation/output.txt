@@ -1,0 +1,19 @@
+Price model trained (R²=0.9118)
+
+=== Contract Parameters ===
+Injection:  3 dates, 350,000 MMBtu total
+Withdrawal: 3 dates, 350,000 MMBtu total
+Injection rate: $0.5/MMBtu
+Withdrawal rate: $0.5/MMBtu
+Storage rate: $10,000/month
+Max capacity: 500,000 MMBtu
+
+=== Price Estimates ===
+  Buy  2025-04-01: $12.87/MMBtu
+  Buy  2025-05-01: $12.54/MMBtu
+  Buy  2025-06-01: $12.23/MMBtu
+  Sell 2025-11-01: $12.81/MMBtu
+  Sell 2025-12-01: $13.10/MMBtu
+  Sell 2026-01-01: $13.82/MMBtu
+
+Contract Value: $-202,871.58
